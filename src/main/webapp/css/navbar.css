@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    width: 100%;
+    margin: auto;
+    background: #2f0547;
+    padding-left:10px;
+}
+/*dimensiones para el logo*/
+.logo {
+    width: 35%;
+    height: 70px;
+    float:left;
+}
+/*al poner mouse encima del logo este resalta un poco, bajandole la opacidad*/
+.logo img:hover{
+	opacity:0.6;
+}
+
+/*barra para el menu se presentara en la parte izquierda de la pagina*/
+.nav{
+    width:65%;
+    float: left; 
+    padding-top: 24px;
+    padding-left: 15px;
+}
+
+.nav a{
+	padding: 23px 25px 23px 22px;
+	text-decoration: none;
+	font-size: 20px;
+	color:#ffffff;
+}
+
+.nav a:hover{
+    background-color: orange;    
+}

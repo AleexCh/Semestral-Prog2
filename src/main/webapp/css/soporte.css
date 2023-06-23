@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+body{ 
+    /*Se especifica una altura minima con un display grid para el body para luego poder tener el footer en la parte inferior de la página+*/
+    min-height: 100vh; 
+    /*El margen 0 es para que los colores de las diferentes secciones abarquen la pagina completamente*/
+    margin: 0; 
+    display: grid;
+    /*Diviendo el body en 3 filas, 1ra fila para el menu , la 3ra fila par el footer y la 2da fila es para el resto del contenido, respectivamente. 
+    auto indica que el tamaño de la 1ra y 3ra fila va dependender del tamaño que ocupe su contenido respectivamente
+    1fr indica que la 2da fila tomara el resto del espacio disponible despues de calcular el tamaño de la 1ra y 3ra fila.  */
+    grid-template-rows: auto 1fr auto;
+    background-color: #90EE90;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: #ffffff; 
+    justify-items: center;
+  }
+  
+  /*display flex para mostrar los miembros uno alado del otro*/ 
+ 
+.flex{
+    display:flex;
+    margin: 5%;
+    margin-left:200px;
+    padding-right: 10%;
+    padding-left: 10%;
+    gap:60px;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-container{
+	width:400px;
+}
+
+.imagen-integrante{
+	max-width:500px;
+	height:350px;
+	width:400px;
+	border-radius: 50%;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.titulo-integrante{
+	text-align:center;
+	font-size:45px;
+	font-weight:700;
+	text-decoration:underline;
+}
+.desc-integrante{
+	font-size:24px;
+	margin-left:5%;
+}

@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    width: 100%;
+    height: 100%;
+    background:#2f0547;
+}
+
+footer ul{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 30%;
+}
+/* las etiquetas a sin subrayar y en negrita*/
+footer a{
+    text-decoration: none;
+    font-weight: 700;
+    color:#ffffff;
+    font-size: 18px;
+}
+footer li a:hover{
+    color:orange;
+}
+/*no mostramos los circulos de la lista*/
+footer li{
+    list-style: none;
+    display:inline;
+    margin:2%;
+}
+
+.copyright{
+	padding-left:42%;
+	color:#ffffff;	
+}

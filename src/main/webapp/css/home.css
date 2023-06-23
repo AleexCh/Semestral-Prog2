@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+body{ 
+    /*Se especifica una altura minima con un display grid para el body para luego poder tener el footer en la parte inferior de la página+*/
+    min-height: 100vh; 
+    /*El margen 0 es para que los colores de las diferentes secciones abarquen la pagina completamente*/
+    margin: 0; 
+    display: grid;
+    /*Diviendo el body en 3 filas, 1ra fila para el menu , la 3ra fila par el footer y la 2da fila es para el resto del contenido, respectivamente. 
+    auto indica que el tamaño de la 1ra y 3ra fila va dependender del tamaño que ocupe su contenido respectivamente
+    1fr indica que la 2da fila tomara el resto del espacio disponible despues de calcular el tamaño de la 1ra y 3ra fila.  */
+    grid-template-rows: auto 1fr auto;
+    background-color: #90EE90;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: #ffffff; 
+    justify-items: center;
+  }
+  
+
+/*Los enlaces <a> deben aparecer en negrita, sin subrayado. */
+a{
+	font-weight:700;
+	text-decoration:none;
+	color:#2f0547;
+}
+
+/*display flex para mostrar las imagenes con enlaces*/ 
+.flex{
+    display:flex;
+    margin-left: 200px;
+    margin-top: 65px;
+    margin-bottom: 20px;
+    padding-right: 10%;
+    padding-left: 10%;
+    gap:30px;
+}
+
+/*muestra un pequeño contenedor dentro del flex y hacemos que resalte con poco de sombra*/
+.flex-container{
+	padding:12px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #0a0909;
+}
+
+.iconos{
+	height:350px;
+	width:400px;
+	border-radius: 45%;
+}
+
+/*permite que el icono sobresalga cuando el mouse esta encima*/
+.iconos:hover{
+	transform: scale(1.3);
+}
+
+.titulo{
+	text-align:center;
+	font-size:29px;
+	margin-bottom:-55px;
+}
+.titulo-noticias{
+	text-align: center;
+	min-height: 40px;
+	padding-top: 16px;
+}
+
+.titulo-desc{
+	padding-top: 16px;
+	font-size: 15px;
+	max-height: 72px;
+}
+
+/* solo quiero afectar las <a> dentro de la clase de titulo-noticias*/
+.titulo-noticias a:hover{
+	color:grey;
+}
+
+/* solo quiero afectar las imagenees dentro de la clase de flex-container*/
+.flex-container img:hover{
+	opacity:0.8;
+}
