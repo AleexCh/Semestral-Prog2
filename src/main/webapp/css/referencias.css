@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+body{ 
+    /*Se especifica una altura minima con un display grid para el body para luego poder tener el footer en la parte inferior de la página+*/
+    min-height: 100vh; 
+    /*El margen 0 es para que los colores de las diferentes secciones abarquen la pagina completamente*/
+    margin: 0; 
+    display: grid;
+    /*Diviendo el body en 3 filas, 1ra fila para el menu , la 3ra fila par el footer y la 2da fila es para el resto del contenido, respectivamente. 
+    auto indica que el tamaño de la 1ra y 3ra fila va dependender del tamaño que ocupe su contenido respectivamente
+    1fr indica que la 2da fila tomara el resto del espacio disponible despues de calcular el tamaño de la 1ra y 3ra fila.  */
+    grid-template-rows: auto 1fr auto;
+    background-color: #f1c376;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: #000000; 
+    justify-items: center;
+  }
+  
+ /* configuracion de la tabal principal*/
+ .tabla1{
+   border-spacing: 0px;
+ 	margin-top: 130px;
+ 	font-size: 30px;
+ 	text-align:center;
+ 	border-collapse:separate;
+ }
+ 
+ /*configuracion de la tabla secundaria*/
+ .tabla2{
+ 	margin-top: 130px;
+ 	font-size: 30px;
+ 	text-align:center;
+ 	margin-left:10%;
+ 	margin-bottom:10px;
+ 	border-collapse:separate;
+   border-spacing: 0px;
+ }
+ 
+ /*Los siguientes son clases para cada conjunto de elementos, con sus colores correspondientes*/
+ /*inicio*/
+ .no-metales{
+ 	border:1px solid black;
+ 	background-color:purple;
+ 	padding:3px;
+ }
+ 
+ .alcalinos{
+ 	border:1px solid black;
+ 	background-color:#f7caac;
+ 	padding:3px;
+ }
+ 
+ .alcalinoterreos{
+ 	border:1px solid black;
+ 	background-color:#ffe599;
+ 	padding:3px;
+ }
+
+ .metal-transicion{
+ 	border:1px solid black;
+ 	background-color: #ffff00;
+ 	padding:3px;
+ }
+ 
+ .semi-metal{
+ 	border:1px solid black;
+ 	background-color: #68fb61;
+ 	padding:3px;
+ }
+ 
+
+ .halogenos{
+ 	border:1px solid black;
+ 	background-color: #ff66ff;
+ 	padding:3px;  
+ }
+ 
+ .gases-nobles{
+ 	border:1px solid black;
+ 	background-color: #00ccff;
+ 	padding:3px; 
+ }
+ 
+ .lantanidos-actinidos{
+ 	border:1px solid black;
+ 	background-color: #e2efd9;
+ 	padding:3px; 
+ 	color:orange;
+ }
+ /*fin*/
+
+
+/*cuando el usuario pasa el puntero sobre cada una, las celdas cambian al color de relleno #031FA2 con letras blancas.*/
+.lantanidos-actinidos:hover, .gases-nobles:hover ,.halogenos:hover ,.semi-metal:hover,.metal-transicion:hover,.alcalinoterreos:hover ,.alcalinos:hover,.no-metales:hover {
+	transform:scale(1.5);
+	background-color:#031FA2;
+}
+
+a{
+	text-decoration:none;
+	color:black;
+}
+
+/*para hacer la ilusion de que la el color de la letra cambia cuando se mueve el mouse encima, tambien se cambia el color del link */
+a:hover{
+	color:white;
+	padding:10px;
+}
+ 

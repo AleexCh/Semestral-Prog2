@@ -9,13 +9,13 @@
 <body>
 	<div class="menu">
 	  <div class="logo">
-	      <a href="home.jsp"><img style="width: 150px; height: 70px;" src="img/logo.png"></a>
+	      <a href="home.jsp"><img style="width: 130px; height: 70px;" src="img/logo.png"></a>
 	   </div>
 			<div class="nav">
 			    <a href="home.jsp">Inicio</a>
 			    <a href="registro_profesores.jsp">Registro: Profesores</a>
 			    <a href="registro_estudiantes.jsp">Registro: Estudiantes</a>
-			    <a href="calendario.jsp">Calendario</a>
+			    <a href="referencias.jsp">Referencias</a>
 			    <a href="contactanos.jsp">Contáctanos</a>
 			</div>
 	</div>		
