@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,9 +13,9 @@
 		    <li><a href="registro_profesores.jsp">Registro: Profesores</a></li>
 		    <li><a href="registro_estudiantes.jsp">Registro: Estudiantes</a></li>
 		    <li><a href="calendario.jsp">Calendario</a></li>
-		    <li><a href="soporte.jsp">Soporte</a></li>
+		    <li><a href="contactanos.jsp">Contáctanos</a></li>
 	    </ul>
-	    <p class="copyright"> &copy; Copyright  2023 Alexander Chung, Alberto Bellera UTP</p>
+	    <p class="copyright"> &copy; Copyright  2023 Alexander Chung, Iván Córdoba, Carlos Delgado, Britney Valoy UTP</p>
 	</footer>
 </body>
 </html>

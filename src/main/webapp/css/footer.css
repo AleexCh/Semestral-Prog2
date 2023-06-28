@@ -22,7 +22,7 @@ footer a{
     font-size: 18px;
 }
 footer li a:hover{
-    color:orange;
+    color:#f7e6c4;
 }
 /*no mostramos los circulos de la lista*/
 footer li{
@@ -32,6 +32,6 @@ footer li{
 }
 
 .copyright{
-	padding-left:42%;
+	text-align:center;
 	color:#ffffff;	
 }

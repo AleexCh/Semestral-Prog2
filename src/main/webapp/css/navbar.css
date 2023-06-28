@@ -6,7 +6,7 @@
 .menu{
     width: 100%;
     margin: auto;
-    background: #2f0547;
+    background: #606c5d;
     padding-left:10px;
 }
 /*dimensiones para el logo*/
@@ -14,6 +14,7 @@
     width: 35%;
     height: 70px;
     float:left;
+    padding-left:10%;
 }
 /*al poner mouse encima del logo este resalta un poco, bajandole la opacidad*/
 .logo img:hover{
@@ -36,5 +37,5 @@
 }
 
 .nav a:hover{
-    background-color: orange;    
+    background-color: #f7e5c4;    
 }

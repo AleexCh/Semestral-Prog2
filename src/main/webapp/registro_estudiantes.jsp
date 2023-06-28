@@ -9,7 +9,7 @@
 </head>
 <body>
 	<!-- Utilizamos la etiqueta de jsp include para mostrar la barra de navegación y evitar código repetido. -->
-	<%@include file="navbar.html"%>
+	<%@include file="navbar.jsp"%>
 	
 	<div>
 		<div class="contenedor-imagen">
@@ -60,6 +60,6 @@
 	</div>
 	
 	<!-- Utilizamos la etiqueta de jsp include para mostrar el pie de página y evitar código repetido. -->
-	<%@include file="footer.html"%>
+	<%@include file="footer.jsp"%>
 </body>
 </html>

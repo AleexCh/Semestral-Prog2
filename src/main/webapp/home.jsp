@@ -11,7 +11,7 @@
 	
 	<body>
 		<!-- Utilizamos la etiqueta de jsp include para mostrar la barra de navegación y evitar código repetido. -->
-		<%@include file="navbar.html"%>
+		<%@include file="navbar.jsp"%>
 		
 		<!-- display flex, divide las imagenes en tres columnas. -->
 		<div class="flex">
@@ -79,6 +79,6 @@
 		
 		
 		<!-- Utilizamos la etiqueta de jsp include para mostrar el pie de página y evitar código repetido. -->
-		<%@include file="footer.html"%>
+		<%@include file="footer.jsp"%>
 	</body>
 </html>
