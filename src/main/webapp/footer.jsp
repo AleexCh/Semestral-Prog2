@@ -10,8 +10,9 @@
 	<footer>
 	    <ul>
 		    <li><a href="home.jsp">Inicio</a></li>
-		    <li><a href="registro_profesores.jsp">Registro: Profesores</a></li>
-		    <li><a href="registro_estudiantes.jsp">Registro: Estudiantes</a></li>
+		    <li><a href="registro_ciencias.jsp">Registro: Ciencias Naturales</a></li>
+		    <li><a href="registro_quimica_biologia.html">Registro: Quimica y Biologia</a></li>
+			<li><a href="registro_programacion.html">Registro: Programacion</a></li>
 		    <li> <a href="referencias.jsp">Referencias</a></li>
 		    <li><a href="contactanos.jsp">Contáctanos</a></li>
 	    </ul>
