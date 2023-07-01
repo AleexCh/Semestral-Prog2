@@ -24,8 +24,6 @@
 				<input type="text" id="nombre" name="nombre"> <br>
 				<label for='cedula'> Cédula: </label>
 				<input type="text" id="cedula" name="cedula"> <br>
-				<label for='alectivo'> Año Lectivo: </label>
-				<input type="text" id="alectivo" name="alectivo"> <br>
 				<label for="centro">Fecha de inicio del curso:</label>
 			    <select id="centro" name="centro">
 			    	<option value="">-- Seleccione una fecha de inicio --</option>
