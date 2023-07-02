@@ -67,6 +67,11 @@
 			</div>
 		</div>
 		
+		<div>
+			<!-- CSS en linea para arreglar el margen -->
+			<a href="home.jsp"><button style="margin-left:-100px;"><h3>HOME</h3></button></a>
+		</div>
+		
 		<!-- Utilizamos la etiqueta de jsp include para mostrar el pie de página y evitar código repetido. -->
 		<%@include file="footer.jsp"%>
 	</body>

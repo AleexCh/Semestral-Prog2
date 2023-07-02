@@ -3,17 +3,13 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Inicio: Universidad del Pueblo</title>
+		<title>Inicio: SoloCiencia.com</title>
 		<link rel="stylesheet" href="css/home.css">
 	</head>
 	
 	<body>
 		<!-- Utilizamos la etiqueta de jsp include para mostrar la barra de navegación y evitar código repetido. -->
 		<%@include file="navbar.jsp"%>
-		
-		<div class="titulo">
-			Noticias
-		</div>
 		
 		<div class="flex">
 			<div class="flex-container">

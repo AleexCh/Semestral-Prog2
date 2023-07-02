@@ -7,14 +7,12 @@
     width: 100%;
     margin: auto;
     background: #606c5d;
-    padding-left:10px;
+    padding-left:5%;
 }
 /*dimensiones para el logo*/
 .logo {
-    width: 35%;
     height: 70px;
     float:left;
-    padding-left:10%;
 }
 /*al poner mouse encima del logo este resalta un poco, bajandole la opacidad*/
 .logo img:hover{
@@ -23,19 +21,19 @@
 
 /*barra para el menu se presentara en la parte izquierda de la pagina*/
 .nav{
-    width:65%;
     float: left; 
     padding-top: 24px;
-    padding-left: 15px;
+    padding-left:8%;
 }
 
 .nav a{
-	padding: 23px 25px 23px 22px;
+	padding: 23px 25px 25px 22px;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 18px;
 	color:#ffffff;
 }
 
 .nav a:hover{
-    background-color: #f7e5c4;    
+    background-color: #f7e5c4;
+    color:  #606c5d; 
 }
