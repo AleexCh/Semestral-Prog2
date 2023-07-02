@@ -23,10 +23,11 @@
 				<label for="edad">Edad:</label>
 				<input type="text" id="edad" name="edad"><br>
 				<label for="contrasena">Contraseña:</label>
-				<input type="text" id="contrasena" name="contrasena"><br>
+				<input type="password" id="contrasena" name="contrasena"><br>
 				<button type="submit">Enviar</button>
 			</fieldset>
 		</form>
+		<p>Ya tienes una cuenta? <a href="login.jsp">Inicia sesión aquí</a></p>
 	</div>
 </body>
 </html>

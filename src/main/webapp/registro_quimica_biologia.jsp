@@ -24,12 +24,12 @@
 				<input type="text" id="nombre" name="nombre"> <br>
 				<label for='cedula'> Cédula: </label>
 				<input type="text" id="cedula" name="cedula"> <br>
-				<label for="centro">Fecha de inicio del curso:</label>
-			    <select id="centro" name="centro">
+				<label for="fecha_ini">Fecha de inicio del curso:</label>
+			    <select id="fecha_ini" name="centro">
 			    	<option value="">-- Seleccione una fecha de inicio --</option>
-					<option value="Panama">20 de julio</option>
-					<option value="Cocle">24 de octubre</option>
-					<option value="Colon">14 de noviembre</option>
+					<option value="20_julio">20 de julio</option>
+					<option value="24_octubre">24 de octubre</option>
+					<option value="14_noviembre">14 de noviembre</option>
 				</select>
 					<button type="submit"> Enviar</button>
 			</fieldset>
