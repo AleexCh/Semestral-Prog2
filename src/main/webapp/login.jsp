@@ -17,7 +17,7 @@
 				<label for="usuario">Usuario:</label>
 				<input type="text" id="usuario" name="usuario"><br>
 				<label for="contrasena">Contraseña:</label>
-				<input type="text" id="contrasena" name="contrasena"><br>
+				<input type="password" id="contrasena" name="contrasena"><br>
 				<button type="submit">Iniciar sesión</button>
 			</fieldset>
 		</form>
