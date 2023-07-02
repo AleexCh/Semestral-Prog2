@@ -12,9 +12,10 @@
 	      <a href="home.jsp"><img style="width: 130px; height: 70px;" src="img/logo.png"></a>
 	   </div>
 			<div class="nav">
-			    <a href="home.jsp">Inicio</a>
-			    <a href="registro_profesores.jsp">Registro: Profesores</a>
-			    <a href="registro_estudiantes.jsp">Registro: Estudiantes</a>
+			    <a href="home.jsp">Home</a>
+			    <a href="registro_ciencias.jsp">Registro: Ciencias Naturales</a>
+			    <a href="registro_quimica_biologia.jsp">Registro: Química y Biología</a>
+				<a href="registro_programacion.jsp">Registro: Programación</a>
 			    <a href="referencias.jsp">Referencias</a>
 			    <a href="contactanos.jsp">Contáctanos</a>
 			</div>
