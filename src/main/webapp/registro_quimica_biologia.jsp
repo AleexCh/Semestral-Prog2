@@ -13,7 +13,7 @@
 	
 	<div>
 		<div class="contenedor-imagen">
-			<img class="iconos" src="img/logo.png"> <br> <br>
+			<img class="iconos" src="img/icono_qui_bio.png"> <br> <br>
 			<p class="introduccion">Bienvenido, ésta es la página de registro para el curso de Química y Biología. Porfavor introduzca sus datos correctamente para validar su registro.</p>
 		</div>
 		<div class="contenedor-form">
