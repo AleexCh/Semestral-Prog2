@@ -25,7 +25,7 @@
 				<label for='cedula'> Cédula: </label>
 				<input type="text" id="cedula" name="cedula"> <br>
 				<label for="fecha_ini">Fecha de inicio del curso:</label>
-			    <select id="fecha_ini" name="centro">
+			    <select id="fecha_ini" name="fecha_ini">
 			    	<option value="">-- Seleccione una fecha de inicio --</option>
 					<option value="20_julio">20 de julio</option>
 					<option value="24_octubre">24 de octubre</option>
