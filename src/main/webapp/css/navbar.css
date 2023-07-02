@@ -14,20 +14,20 @@
     height: 70px;
     float:left;
 }
-/*al poner mouse encima del logo este resalta un poco, bajandole la opacidad*/
-.logo img:hover{
+/*al poner mouse encima del logo o los iconos de redes sociales este resalta un poco, bajandole la opacidad*/
+.logo img:hover, .redes:hover{
 	opacity:0.6;
 }
 
 /*barra para el menu se presentara en la parte izquierda de la pagina*/
 .nav{
     float: left; 
-    padding-top: 24px;
-    padding-left:8%;
+    padding-top: 33px;
+    padding-left:6px;
 }
 
 .nav a{
-	padding: 23px 25px 25px 22px;
+	padding: 35px 25px 30px 22px;
 	text-decoration: none;
 	font-size: 18px;
 	color:#ffffff;
@@ -36,4 +36,18 @@
 .nav a:hover{
     background-color: #f7e5c4;
     color:  #606c5d; 
+}
+
+.menu-redes{
+	float:right;
+    padding-top: 20px;
+    padding-bottom:10px;
+    padding-right:80px;
+}
+
+.redes{
+	border-radius:50%;
+	width:50px;
+	height:50px;
+	margin-right:15px;
 }

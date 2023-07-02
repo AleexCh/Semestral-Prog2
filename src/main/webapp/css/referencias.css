@@ -103,7 +103,7 @@ a{
 }
 
 /*para hacer la ilusion de que la el color de la letra cambia cuando se mueve el mouse encima, tambien se cambia el color del link */
-a:hover{
+td a:hover{
 	color:white;
 	padding:10px;
 }
