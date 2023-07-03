@@ -27,7 +27,7 @@
 				<button type="submit">Enviar</button>
 			</fieldset>
 		</form>
-		<p>Ya tienes una cuenta? <a href="login.jsp">Inicia sesión aquí</a></p>
+		<p>Ya tienes una cuenta? <a href="pagina1.jsp">Inicia sesión aquí</a></p>
 	</div>
 </body>
 </html>
