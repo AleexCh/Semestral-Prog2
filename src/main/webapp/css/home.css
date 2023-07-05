@@ -18,17 +18,15 @@ body{
   }
   
 
-a{
-	font-weight:700;
-}
-
 /*display flex para mostrar los videos uno a lado de otro.*/ 
 .flex{
     display:flex;
+    margin-right:20px;
+    margin-left:20px;
     margin-top: 7%;
     margin-bottom: 20px;
     gap:30px;
-    height:58%;
+    height:450px;
 }
 
 /*muestra un pequeño contenedor dentro del flex y hacemos que resalte con poco de sombra*/
@@ -53,4 +51,8 @@ a{
 	font-size: 15px;
 	max-height: 72px;
 	text-transform:uppercase;
+}
+
+.flex a{
+	font-weight:700;
 }

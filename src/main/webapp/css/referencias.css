@@ -23,7 +23,7 @@ body{
  	margin-top: 130px;
  	font-size: 30px;
  	text-align:center;
- 	border-collapse:separate;
+ 	border-collapse:collapse;
  }
  
  /*configuracion de la tabla secundaria*/
