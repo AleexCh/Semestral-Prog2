@@ -30,6 +30,26 @@ footer li{
     margin:2%;
 }
 
+.button{
+    margin-bottom:20px;
+    height:30px;
+    width:80px;
+    background-color:#606c5d;
+    text-align:center;
+    color:#ffffff;
+    border:2px solid black;
+    border-radius:15px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:12px;
+}
+.button:hover{
+    background-color:#ffffff;
+}
+.button a:hover{
+    color:#2f0547;
+}
+
 .copyright{
 	text-align:center;
 	color:#ffffff;	

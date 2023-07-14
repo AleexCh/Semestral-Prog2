@@ -17,6 +17,7 @@
 		    <li><a href="contactanos.jsp">Contáctanos</a></li>
 	    </ul>
 	    <p class="copyright"> &copy; Copyright  2023 Alexander Chung, Iván Córdoba, Carlos Delgado, Britney Valoy UTP</p>
+	    <div class="button"> <a href="pagina1.jsp">Logout</a></div>
 	</footer>
 </body>
 </html>
