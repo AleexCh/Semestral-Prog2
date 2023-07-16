@@ -21,7 +21,7 @@
 					</div>
 					
 					<div class="titulo-desc">
-						Para conocer más sobre este tema, <a class="hover" href="https://www.lanacion.com.ar/tecnologia/como-la-impresion-3d-de-organos-se-esta-transformando-en-el-futuro-de-los-trasplantes-nid08092022/" target="_blank">haga clic aquí</a>.
+						Para conocer más sobre este tema, <a class="hover" href="https://www.lanacion.com.ar/tecnologia/como-la-impresion-3d-de-organos-se-esta-transformando-en-el-futuro-de-los-trasplantes-nid08092022/" target="_blank" rel="noopener">haga clic aquí</a>.
 					</div>
 				
 			</div>
@@ -34,7 +34,7 @@
 						La primera vacuna contra la malaria					</div>
 					
 					<div class="titulo-desc">
-						Para conocer más sobre este tema, <a class="hover" href="https://amiif.org/la-primera-vacuna-contra-la-malaria/" target="_blank">haga clic aquí</a>.
+						Para conocer más sobre este tema, <a class="hover" href="https://amiif.org/la-primera-vacuna-contra-la-malaria/" target="_blank" rel="noopener">haga clic aquí</a>.
 					</div>
 			</div>
 			
@@ -47,7 +47,7 @@
 					</div>
 					
 					<div class="titulo-desc">
-						Para conocer más sobre este tema, <a class="hover" href="https://nexpanama.com/primera-cirugia-robotica-en-el-sistema-publico-de-salud-panameno/" target="_blank">haga clic aquí</a>.
+						Para conocer más sobre este tema, <a class="hover" href="https://nexpanama.com/primera-cirugia-robotica-en-el-sistema-publico-de-salud-panameno/" target="_blank" rel="noopener">haga clic aquí</a>.
 					</div>
 			</div>
 		</div>

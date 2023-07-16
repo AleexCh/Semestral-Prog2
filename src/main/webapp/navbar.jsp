@@ -22,9 +22,9 @@
 			    <a href="contactanos.jsp">Contáctanos</a>
 			</div>
 			<div class="menu-redes">
-				<a href="https://www.google.com.pa/" target="_blank"><img class="redes" src="img/icono_busqueda.png" alt="iconoBusqueda"></a>
-				<a href="https://twitter.com/SoloCienciass" target="_blank"><img  class="redes" src="img/icono_twitter.png"alt="iconoTwitter"></a>
-				<a href="https://www.facebook.com/groups/2454040638087955" target="_blank" ><img class="redes" src="img/icono_fb.png" alt="iconoFB"></a>
+				<a href="https://www.google.com.pa/" target="_blank" rel="noopener"> <img class="redes" src="img/icono_busqueda.png" alt="iconoBusqueda"></a>
+				<a href="https://twitter.com/SoloCienciass" target="_blank" rel="noopener"><img  class="redes" src="img/icono_twitter.png"alt="iconoTwitter"></a>
+				<a href="https://www.facebook.com/groups/2454040638087955" target="_blank" rel="noopener" ><img class="redes" src="img/icono_fb.png" alt="iconoFB"></a>
 			</div>
 	</div>		
 </body>
