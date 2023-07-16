@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 
-<html>
+<html lang="es">
 	<head>
 		<meta charset="UTF-8">
 		<title>Referencias</title>
@@ -15,8 +15,12 @@
 		<!-- Vamos a presentar la tabla periodica utilizando la etiqueta table, donde cada td obtendra su propia clase para cambiar lo que es el color de la respectiva celda. -->
 		<div>
 			<table class="tabla1">
+				<caption>Tabla periodica</caption>
 				<tr>
-					<td class="no-metales"><a href="https://es.wikipedia.org/wiki/Hidr%C3%B3geno" target="_blank">H</a></td>
+					<th></th>
+				</tr>
+				<tr>
+					<td scope='col' class="no-metales"><a href="https://es.wikipedia.org/wiki/Hidr%C3%B3geno" target="_blank">H</a></td>
 					<td></td>
 					<td></td>
 					<td></td>
@@ -159,6 +163,10 @@
 			</table>
 			
 			<table class="tabla2">
+				<caption>Tabla Periodica</caption>
+				<tr>
+					<th></th>
+				</tr>
 				<tr>
 					<td class="lantanidos-actinidos"><a href="https://es.wikipedia.org/wiki/Lantano" target="_blank">La</a></td>
 					<td class="lantanidos-actinidos"><a href="https://es.wikipedia.org/wiki/Cerio" target="_blank">Ce</a></td>

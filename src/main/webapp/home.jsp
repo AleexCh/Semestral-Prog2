@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="es">
 	<head>
 		<meta charset="UTF-8">
 		<title>Inicio: SoloCiencia.com</title>
@@ -14,7 +14,7 @@
 		<div class="flex">
 			<div class="flex-container">
 				<div>
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/0S98UiiwENE" title="Impresoras 3D en Medicina Regenerativa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>				
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/0S98UiiwENE" title="Impresoras 3D en Medicina Regenerativa" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>				
 				</div>
 					<div class="titulo-noticias">
 						Impresoras 3D en Medicina Regenerativa
@@ -28,7 +28,7 @@
 			
 			<div class="flex-container">
 				<div>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/WytTaPt4c6M" title="#TeamVaccines – #VaccinesForLife: La primera vacuna mundial contra la malaria: un camino de 35" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>				</div>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/WytTaPt4c6M" title="#TeamVaccines – #VaccinesForLife: La primera vacuna mundial contra la malaria: un camino de 35"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>				</div>
 				
 					<div class="titulo-noticias">
 						La primera vacuna contra la malaria					</div>
@@ -40,7 +40,7 @@
 			
 			<div class="flex-container">
 				<div>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/xUqx11-kVm0" title="Realizan la primera cirugía robótica en la Ciudad de la Salud, Panamá" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>				</div>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/xUqx11-kVm0" title="Realizan la primera cirugía robótica en la Ciudad de la Salud, Panamá" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>				</div>
 				
 					<div class="titulo-noticias">
 						Primera cirugía robótica en la Ciudad de la Salud, Panamá

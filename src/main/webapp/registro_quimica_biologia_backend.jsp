@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+<head>
+<title>Registro Quimica-Biologia Back End</title>
+</head>
 <%@page import="java.sql.*" %>
 
 

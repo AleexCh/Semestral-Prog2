@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+<head>
+<title>Registro Programacion Back End</title>
+</head>
 <%@page import="java.sql.*" %>
 
 

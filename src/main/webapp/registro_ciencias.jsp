@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE>
-<html>
+<html lang="es">
 <head>
 	<meta charset='UTF-8'>
 	<title>Registro en el curso de Ciencias Naturales</title>
@@ -13,7 +13,7 @@
 	
 	<div>
 		<div class="contenedor-imagen">
-			<img class="iconos" src="img/icono_ciencias.png"> <br> <br>
+			<img class="iconos" src="img/icono_ciencias.png" alt="iconoCiencias"> <br> <br>
 			<p class="introduccion">Bienvenido, ésta es la página de registro para el curso de Ciencias Naturales. Porfavor introduzca sus datos correctamente para validar su registro.</p>
 		</div>
 		<div class="contenedor-form">

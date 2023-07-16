@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="es">
 	<head>
 		<meta charset="UTF-8">
 		<title>Sobre Nosotros</title>
@@ -16,7 +16,7 @@
 		<div class="flex">
 			<div class="flex-container">
 				<p class="titulo-integrante">Alexander Chung</p>
-				<img class="imagen-integrante" src="img/Alexander.png">
+				<img class="imagen-integrante" src="img/Alexander.png" alt="imagenAlexander">
 				<p class="desc-integrante">
 					Nombre: Alexander Chung <br>
 					Cédula: 8-898-1883 <br>
@@ -29,7 +29,7 @@
 			
 			<div class="flex-container">
 				<p class="titulo-integrante">Ivan Córdoba</p>
-				<img class="imagen-integrante" src="img/Ivan.jpeg">
+				<img class="imagen-integrante" src="img/Ivan.jpeg" alt="imagenIvan">
 				<p class="desc-integrante">
 					Nombre: Ivan Córdoba <br>
 					Cédula: 8-987-2112 <br>
@@ -43,7 +43,7 @@
 		<div class="flex">
 			<div class="flex-container">
 				<p class="titulo-integrante">Carlos Delgado</p>
-				<img class="imagen-integrante" src="img/Carlos.jpeg">
+				<img class="imagen-integrante" src="img/Carlos.jpeg" alt="imagenCarlos">
 				<p class="desc-integrante">
 					Nombre: Carlos Delgado <br>
 					Cédula: 8-992-963 <br>
@@ -55,7 +55,7 @@
 			
 			<div class="flex-container">
 				<p class="titulo-integrante">Britney Valoy</p>
-				<img class="imagen-integrante" src="img/Britney.jpeg">
+				<img class="imagen-integrante" src="img/Britney.jpeg" alt="imagenBritney">
 				<p class="desc-integrante">
 					Nombre: Britney Valoy <br>
 					Cédula:  8-998-213 <br>
